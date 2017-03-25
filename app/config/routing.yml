@@ -1,0 +1,23 @@
+
+    
+gm_gestion_depenses:
+    resource: "@GMGestionDepensesBundle/Controller/"
+    type:     annotation
+    prefix:   /GM
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!09/08/16
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!09/08/16
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!09/08/16
+ressource:
+    resource: "@RessourceBundle/Resources/config/routing.yml"
+    prefix:   /ressource
+
+gm_projet:
+    resource: "@GMProjetBundle/Resources/config/routing.yml"
+    prefix:   /GM
+
+utilisateurs:
+    resource: "@UtilisateursBundle/Resources/config/routing.yml"
+    prefix:   /
+
+fos_user:
+    resource: "@FOSUserBundle/Resources/config/routing/all.xml"

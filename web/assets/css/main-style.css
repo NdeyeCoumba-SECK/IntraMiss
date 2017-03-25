@@ -1,0 +1,158 @@
+﻿
+/*====================================
+ Free To Use For Personal And Commercial Usage
+Author: http://binarytheme.com
+ Share Us if You Like our work 
+ Enjoy Our Codes For Free always.
+======================================*/
+
+/* user image section */
+.user-section {
+    margin-top:20px;
+    font-size:22px;
+    /*background-color:rgb(40, 40, 180);   83, 163, 163 OLD fond bleu de img user    */
+    background-color:#FFFFFF;       /* #044c92 */
+}
+.user-section-inner {
+    height: 65px;
+width: 65px;
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+overflow: hidden;
+display: inline-block;
+float: left;
+margin-right: 15px;
+margin-top: 20px;
+}
+    .user-section-inner img {
+         overflow:hidden;
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+/*    width:90px;
+    height:90px;*/
+        margin-left:10px;
+        width:55px;
+        height:60px;
+        
+    }
+.user-info {
+    display: block;
+    color:#000!important;
+display: inline-block;
+padding: 15px;
+margin-bottom: 0px
+}
+.user-text-online {
+    font-size:18px;
+    color:#044C92;                      /* #fff */
+}
+.user-circle-online {
+    width: 15px!important;
+    height: 15px!important;
+}
+
+/* side-menu section */
+.nav > li > a:hover, .nav > li > a:focus {  /* couleur si on fait approcher le souris des menus */
+    /*background-color:rgba(74, 72, 126, 0);*/            
+    background-color:#FF1493; /* (74, 72, 126, 0) OLD    */      /* #FF1493 PINK    #080808 NOIR */         
+}
+.navbar-top-links  .open > a, .nav .open > a:hover, .nav .open > a:focus {       /* click navbar top */ 
+    background-color: #080808;      /* #75C5B8 OLD A mettre en bleue d'Atos #2828b4 / #033c73' */      /* #080808 */           /*  */          /*  */
+}
+.navbar-top-links > li > a {
+color: #FFFFFF;
+}
+.nav > li > a {
+padding: 20px 15px;
+}
+#side-menu {
+    background-color:#044C92;   /* #04B173 old    #2828b4 #044C92 #033c73 #02274b #022f5a #011d37 BlueAtos   #FF1493 DeepPink       #317eac/#011d37 #3141ac */ 
+    border-color: #033c73;      
+}
+
+ #side-menu a { /* menu side: couleur texte, interligne et hauteur   */
+            color:#fff;
+           border-bottom: 1px solid #044c92 !important;         /*#84B899 OLD  #011D37 (1,29,55) */    
+           height: 44px;    /* height: 55px  */
+        }
+        .selected {
+            background-color:#033c73;     /*  background-color:rgb(83, 163, 163); OLD  #75C5B8C #080808 NOIR */
+        }
+/* back colors */
+        .blue {
+            background-color:rgb(113, 159, 241);
+        }
+         .green {
+            background-color:rgb(144, 236, 192);        /* rgb(144, 236, 192) OLD  */
+        }
+          .red {
+            background-color:rgb(255, 102, 133);
+        }
+        .yellow {
+            background-color:rgb(237, 253, 46);
+        }
+
+  /* No border */
+.no-boder {
+    border:0px solid #5bc0de !important;
+}
+/* tap nvbar Section */
+
+#navbar {
+    background-color:#0664aa;       /*  */
+    /*background-color:rgb(40, 40, 180);*/      /*(83, 163, 163) background-color:rgb(40, 40, 180); */ 
+}
+
+.navbar-brand {
+    padding-left:20px;
+}
+.navbar-brand img {
+    height:40px;
+}
+.top-label {
+    position: absolute;
+top: 50%;
+right: 50%;
+margin-top: -24px;
+margin-right: -24px;
+}
+
+/*large font*/
+.large-font {
+    font-size:18px;
+}
+
+.body-Login-back {
+    background-color:#84B899;       
+}
+
+.margin-tips {
+    margin:5px;
+}
+.navbar-default {
+border-color: #044c92;  /* #27A6BE old          #FF1493 PINK #033c73    #2828b4 #044C92 #033c73 #02274b #022f5a #011d37 BlueAtos*/ 
+
+}
+/*media queries*/ 
+
+@media(min-width:768px) 
+{
+    #page-wrapper {
+        position: inherit;
+        margin: 0 0 0 250px;
+        padding: 0 30px;
+        min-height: 1000px;
+       
+       
+    }
+
+}
+
+@media(max-width:768px) {
+#wrapper {
+    margin-top:140px!important;
+    
+}
+}

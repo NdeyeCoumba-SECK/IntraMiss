@@ -1,0 +1,11 @@
+services:
+#    gm_gestion_depenses.example:
+#        class: GM\GestionDepensesBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]
+
+#ben.stats_handler:
+#        class: Ben\AssociationBundle\Stats\StatsHandler
+#        arguments: ["@doctrine.orm.entity_manager"]
+      
+        
+        
